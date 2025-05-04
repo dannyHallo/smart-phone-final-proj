@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorLightGray">#EFEFEF</color>
+    <color name="colorLightGray2">#DFDFDF</color>
+    <color name="colorLightGray3">#CDCDCD</color>
+    <color name="colorHint">#FFEB3B</color>
+    <color name="colorDarkGray">#4A4A4A</color>
+    <color name="colorTransGray">#3B4A4A4A</color>
+    <color name="colorText">#2C2C2C</color>
+
+    <color name="colorForLover">#FEDAFF</color>
+    <color name="colorForWater">#C5F1FF</color>
+    <color name="colorForApple">#FFD2D2</color>
+    <color name="colorForBanana">#FFFDD5</color>
+
+    <color name="colorForDancer">#CBB8FF</color>
+    <color name="colorForElectric">#D4E9FF</color>
+
+    <color name="colorForGrass">#CBFFD1</color>
+    <color name="colorForHills">#DDC2AD</color>
+    <color name="colorForIce">#ECFBFF</color>
+
+
+
+</resources>

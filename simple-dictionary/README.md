@@ -1,0 +1,2 @@
+# SimpleDictionary
+ A simple dictionary

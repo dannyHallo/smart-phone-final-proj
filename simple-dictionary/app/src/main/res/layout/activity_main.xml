@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simpledictionary.MainActivity">
+
+    <com.example.simpledictionary.VideoView.CustomVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fitsSystemWindows="true"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_alignParentTop="true"
+            android:hint="Hi!"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:fontFamily="@font/sigmar_one_regular"
+            android:gravity="center_horizontal"
+            android:typeface="monospace"
+            android:inputType="textVisiblePassword"
+            android:cursorVisible="false"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_normal"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_search"
+            android:layout_below="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="40dp"
+            android:ellipsize="marquee"/>
+
+    </RelativeLayout>
+</FrameLayout>
+
